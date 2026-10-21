@@ -104,7 +104,7 @@ h1 em { font-style: italic; color: var(--magenta); }
 
 /* ========== SPLIT (kit) ========== */
 .split { display: grid; grid-template-columns: 1fr 1.1fr; gap: 4.5rem; align-items: center; }
-.split__media img { width: 100%; max-width: 440px; margin-inline: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 220px 220px var(--radius) var(--radius); box-shadow: var(--shadow); }
+.split__media img { width: 100%; max-width: 440px; margin-inline: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 220px 220px var(--radius) var(--radius); box-shadow: var(--shadow); object-position: center 15%; }
 .split__text .section__lead { margin-bottom: 1.8rem; }
 
 .kit { display: grid; grid-template-columns: repeat(2, 1fr); gap: .8rem; margin-bottom: 2.2rem; }
