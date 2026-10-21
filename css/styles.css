@@ -127,6 +127,13 @@ h1 em { font-style: italic; color: var(--magenta); }
 .course__foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 1.2rem; border-top: 1px solid var(--borde); }
 .price--ask { font-weight: 500; color: var(--gris); font-size: .84rem; font-style: italic; }
 
+.payments { margin-top: 2.5rem; text-align: center; }
+.payments p { font-size: .74rem; font-weight: 600; letter-spacing: .25em; text-transform: uppercase; color: var(--gris); margin-bottom: 1rem; }
+.payments ul { display: flex; flex-wrap: wrap; justify-content: center; gap: .7rem; }
+.payments li { background: #fff; border-radius: 999px; padding: .55rem 1.1rem; font-size: .85rem; font-weight: 500; }
+.payments i { color: var(--magenta); margin-right: .4rem; }
+.payments small { display: block; margin-top: .9rem; font-size: .76rem; color: var(--gris); }
+
 /* ========== TEMARIO ========== */
 .syllabus { display: grid; grid-template-columns: 1fr 1.4fr; gap: 2rem; }
 .syllabus__col { background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .1); border-radius: var(--radius); padding: 2.2rem; }
