@@ -182,6 +182,24 @@ h1 em { font-style: italic; color: var(--magenta); }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq details p { margin-top: .8rem; color: var(--gris); font-size: .9rem; }
 
+/* ========== ALQUILER ========== */
+.rental { display: grid; grid-template-columns: 1fr 1.35fr; gap: 3rem; align-items: start; }
+.rental__side img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); margin-bottom: 1rem; box-shadow: var(--shadow); }
+.rental__label { font-size: .74rem; font-weight: 600; letter-spacing: .25em; text-transform: uppercase; color: var(--magenta); margin: 1.5rem 0 .9rem; }
+.rental__includes { display: grid; grid-template-columns: repeat(2, 1fr); gap: .6rem .8rem; font-size: .88rem; }
+.rental__includes i { color: var(--magenta); width: 22px; margin-right: .3rem; }
+.rental__side small { display: block; margin-top: .9rem; font-size: .75rem; color: var(--gris); }
+.rates { background: #fff; border-radius: var(--radius); padding: .6rem 1.8rem 1.2rem; box-shadow: var(--shadow); }
+.rates__group { font-size: .72rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--magenta); margin: 1.3rem 0 .3rem; }
+.rate { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .7rem 0; border-bottom: 1px solid var(--borde); transition: color .2s; }
+.rate strong { display: block; font-size: .95rem; font-weight: 600; }
+.rate span { font-size: .78rem; color: var(--gris); }
+.rate b { font-family: var(--font-title); font-size: 1.6rem; color: var(--magenta); white-space: nowrap; }
+.rate:hover strong { color: var(--magenta); }
+.rental__terms { margin-top: 2.5rem; }
+.rental__terms ul { display: grid; gap: .55rem; margin-top: 1rem; font-size: .88rem; color: var(--gris); }
+.rental__terms strong { color: var(--texto); }
+
 /* ========== CONTACTO ========== */
 .contact { display: grid; grid-template-columns: 1fr 1.1fr; gap: 4rem; align-items: center; }
 .contact__list { display: grid; gap: 1.4rem; margin: 2rem 0 2.2rem; }
@@ -223,7 +241,7 @@ h1 em { font-style: italic; color: var(--magenta); }
   .navbar__cta { margin-left: auto; }
   .navbar__burger { display: block; }
 
-  .hero__inner, .split, .contact, .syllabus, .courses, .extras { grid-template-columns: 1fr; gap: 2rem; }
+  .hero__inner, .split, .contact, .syllabus, .courses, .extras, .rental { grid-template-columns: 1fr; gap: 2rem; }
   .hero__inner, .split, .contact { gap: 3rem; }
   .hero__media { height: 440px; }
   .gallery { grid-template-columns: repeat(3, 1fr); }
@@ -252,4 +270,5 @@ h1 em { font-style: italic; color: var(--magenta); }
   .course__foot { flex-direction: column; align-items: stretch; }
   .syllabus__col:last-child ol { grid-template-columns: 1fr; }
   .contact__map iframe { height: 320px; }
+  .rates { padding: .4rem 1.1rem 1rem; }
 }
