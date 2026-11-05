@@ -1,0 +1,54 @@
+/* ========== BASE LANDING ========== */
+.landing { padding-bottom: 84px; }
+.landing .logo__word { display: block; font-size: 3rem; line-height: 1; margin-bottom: 1rem; }
+
+/* ========== HERO ========== */
+.lp-hero { padding: 3rem 0 3.5rem; background: radial-gradient(circle at 85% 20%, #f8dce8 0, transparent 45%), var(--crema); }
+.lp-hero__inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: center; }
+.lp-hero__text .hero__lead { margin: 1.1rem 0 1.6rem; }
+.lp-hero__img { width: 100%; max-width: 440px; margin-inline: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 40%; border-radius: 220px 220px var(--radius) var(--radius); box-shadow: var(--shadow); }
+.lp-trust { display: grid; grid-template-columns: repeat(2, max-content); gap: .6rem 1.8rem; margin-top: 2rem; font-size: .85rem; font-weight: 500; }
+.lp-trust i { color: var(--magenta); width: 20px; margin-right: .3rem; }
+
+/* ========== CURSOS ========== */
+.landing .course__body .btn { margin-top: auto; }
+.lp-facts { display: grid; gap: .4rem; margin-bottom: 1.2rem; font-size: .86rem; font-weight: 500; }
+.lp-facts i { color: var(--magenta); width: 20px; margin-right: .3rem; }
+.lp-more { margin-bottom: 1.4rem; font-size: .84rem; color: var(--gris); }
+.lp-more summary { cursor: pointer; font-weight: 600; color: var(--magenta); }
+.lp-more p { margin-top: .7rem; }
+.lp-more strong { color: var(--texto); }
+
+/* ========== RESULTADOS ========== */
+.lp-gallery { grid-template-columns: repeat(4, 1fr); }
+
+/* ========== PASOS ========== */
+.lp-steps { grid-template-columns: repeat(3, 1fr); }
+.lp-note { text-align: center; font-size: .76rem; color: var(--gris); margin-top: 1rem; }
+
+/* ========== FAQ ========== */
+.lp-faq details { background: var(--blush); }
+
+/* ========== FOOTER ========== */
+.lp-footer { background: var(--oscuro); color: #cdb3c0; text-align: center; font-size: .78rem; padding: 1.6rem 16px; }
+
+/* ========== BOTÓN FIJO ========== */
+.lp-sticky { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: .7rem 16px; background: rgba(255, 250, 247, .95); box-shadow: 0 -6px 20px rgba(42, 21, 32, .1); }
+.lp-sticky .btn { display: flex; width: min(420px, 100%); margin-inline: auto; background: #25d366; border-color: #25d366; }
+.lp-sticky .btn:hover { background: #1fb457; border-color: #1fb457; }
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .lp-hero__inner { grid-template-columns: 1fr; gap: 2.2rem; }
+  .lp-steps { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .lp-hero { padding: 2rem 0 3rem; }
+  .lp-hero__img { max-width: 300px; }
+  .lp-trust { grid-template-columns: repeat(2, 1fr); gap: .6rem 1rem; font-size: .8rem; }
+  .lp-gallery { grid-template-columns: repeat(2, 1fr); }
+  .lp-steps { gap: .8rem; }
+  .landing .course__prices div { padding: .8rem .75rem; }
+  .landing .course__prices small { font-size: .68rem; white-space: nowrap; }
+}
