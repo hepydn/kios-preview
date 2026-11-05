@@ -267,6 +267,7 @@ h1 em { font-style: italic; color: var(--magenta); }
   .kit { grid-template-columns: 1fr 1fr; gap: .6rem; }
   .kit li { font-size: .8rem; padding: .8rem; }
   .course img { height: 220px; }
+  .course__prices strong { font-size: 1.75rem; white-space: nowrap; }
   .course__body, .syllabus__col { padding: 1.4rem; }
   .course__foot { flex-direction: column; align-items: stretch; }
   .syllabus__col:last-child ol { grid-template-columns: 1fr; }
