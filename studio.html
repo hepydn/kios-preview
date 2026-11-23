@@ -62,8 +62,8 @@
         <p class="hero__lead">Las mismas especialistas que forman a nuevas profesionales en nuestra academia, con productos de marca Kios.</p>
         <a class="btn btn--primary" data-wa="una cita en el studio"><i class="fab fa-whatsapp"></i> Pedir cita</a>
       </div>
-      <!-- Cinta de resultados: el segundo grupo repite el primero para que el bucle sea continuo -->
-      <div class="ribbon" aria-label="Resultados de nuestras clientas">
+      <!-- Cinta de resultados: se mueve con las flechas o deslizando -->
+      <div class="ribbon" id="ribbon" aria-label="Resultados de nuestras clientas">
         <div class="ribbon__track">
           <img src="assets/img/pestanas-1.jpg" alt="Extensiones de pestañas de volumen" />
           <img src="assets/img/resultado-1.jpg" alt="Resultado de cejas y pestañas" />
@@ -71,13 +71,9 @@
           <img src="assets/img/resultado-cejas.jpg" alt="Resultado de diseño de cejas" />
           <img src="assets/img/pestanas-4.jpg" alt="Extensiones de pestañas efecto natural" />
           <img src="assets/img/resultado-2.jpg" alt="Resultado de cejas y pestañas" />
-          <img src="assets/img/pestanas-1.jpg" alt="" aria-hidden="true" />
-          <img src="assets/img/resultado-1.jpg" alt="" aria-hidden="true" />
-          <img src="assets/img/pestanas-3.jpg" alt="" aria-hidden="true" />
-          <img src="assets/img/resultado-cejas.jpg" alt="" aria-hidden="true" />
-          <img src="assets/img/pestanas-4.jpg" alt="" aria-hidden="true" />
-          <img src="assets/img/resultado-2.jpg" alt="" aria-hidden="true" />
         </div>
+        <button class="ribbon__btn ribbon__btn--prev" type="button" aria-label="Fotos anteriores"><i class="fas fa-chevron-left"></i></button>
+        <button class="ribbon__btn ribbon__btn--next" type="button" aria-label="Fotos siguientes"><i class="fas fa-chevron-right"></i></button>
       </div>
     </section>
 

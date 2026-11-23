@@ -48,3 +48,22 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 // ========== AÑO DEL FOOTER ==========
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// ========== CINTA DE RESULTADOS (STUDIO) ==========
+// Las flechas desplazan la cinta una foto; se ocultan al llegar a cada extremo
+const ribbon = document.getElementById('ribbon');
+if (ribbon) {
+  const track = ribbon.querySelector('.ribbon__track');
+  const prev = ribbon.querySelector('.ribbon__btn--prev');
+  const next = ribbon.querySelector('.ribbon__btn--next');
+  const step = () => track.querySelector('img').offsetWidth + parseFloat(getComputedStyle(track).columnGap || 0);
+  const update = () => {
+    prev.disabled = track.scrollLeft <= 2;
+    next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+  };
+  prev.addEventListener('click', () => track.scrollBy({ left: -step() }));
+  next.addEventListener('click', () => track.scrollBy({ left: step() }));
+  track.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  window.addEventListener('load', update);
+  update();
+}
