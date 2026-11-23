@@ -55,7 +55,7 @@ function visibleProducts() {
     (!state.sub || p.subcategoria === state.sub) &&
     (!state.brand || p.marca === state.brand) &&
     (!q || normalize(`${p.nombre} ${p.marca} ${p.subcategoria} ${p.categoria}`).includes(q))
-  );
+  ).sort((a, b) => a.out - b.out); // agotados al final
 }
 
 function renderTabs() {
