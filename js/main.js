@@ -47,3 +47,22 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 // ========== AÑO DEL FOOTER ==========
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// ========== CARRUSEL DEL STUDIO ==========
+// Pasa las fotos de derecha a izquierda en bucle
+const slider = document.getElementById('slider');
+if (slider) {
+  const track = slider.querySelector('.slider__track');
+  const total = track.children.length;
+  const clone = track.children[0].cloneNode(); // copia de la primera para que el bucle no salte
+  clone.alt = ''; clone.setAttribute('aria-hidden', 'true');
+  track.appendChild(clone);
+  let i = 0;
+  const reset = () => { i = 0; track.style.transition = 'none'; track.style.transform = 'translateX(0)'; void track.offsetWidth; };
+  const go = () => {
+    if (i >= total) reset();
+    i++; track.style.transition = ''; track.style.transform = `translateX(-${i * 100}%)`;
+  };
+  track.addEventListener('transitionend', () => { if (i >= total) reset(); });
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) setInterval(go, 3500);
+}
