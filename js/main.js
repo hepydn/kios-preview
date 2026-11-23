@@ -1,6 +1,6 @@
 // ========== CONFIG ==========
 // WhatsApp del studio: cursos, cupos y reservas
-const WHATSAPP_STUDIO = '582127624461';
+const WHATSAPP_STUDIO = '584242256294';
 
 // ========== NAVBAR ==========
 const navbar = document.getElementById('navbar');

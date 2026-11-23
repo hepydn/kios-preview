@@ -1,6 +1,6 @@
 // ========== CONFIG ==========
 // WhatsApp del studio: cursos, cupos y reservas
-const WHATSAPP_STUDIO = '582127624461';
+const WHATSAPP_STUDIO = '584242256294';
 // Pega aquí el ID del Pixel de Meta para activar la medición
 const META_PIXEL_ID = '';
 
