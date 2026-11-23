@@ -15,6 +15,13 @@ burger.addEventListener('click', () => navLinks.classList.toggle('is-open'));
 navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => navLinks.classList.remove('is-open'));
 });
+// Cerrar el menú al tocar fuera de él o con la tecla Escape
+document.addEventListener('click', e => {
+  if (navLinks.classList.contains('is-open') && !navLinks.contains(e.target) && !burger.contains(e.target)) {
+    navLinks.classList.remove('is-open');
+  }
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') navLinks.classList.remove('is-open'); });
 
 // ========== ENLACES DE WHATSAPP ==========
 // Cada botón con data-wa abre WhatsApp con un mensaje ya escrito
