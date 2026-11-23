@@ -255,11 +255,13 @@ h1 em { font-style: italic; color: var(--magenta); }
 .h2 { font-size: clamp(2rem, 3.6vw, 2.9rem); }
 
 /* ========== SERVICIOS DEL STUDIO ========== */
-.services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
-.service { background: #fff; border-radius: var(--radius); padding: 2rem 1.6rem; display: flex; flex-direction: column; align-items: flex-start; }
-.service > i { font-size: 1.4rem; color: var(--magenta); background: var(--blush); width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; margin-bottom: 1.1rem; }
-.service p { font-size: .88rem; color: var(--gris); margin: .4rem 0 1.4rem; }
-.service .btn { margin-top: auto; }
+.services { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); max-width: 860px; margin: 0 auto; padding: .4rem 1.6rem; }
+.service { display: grid; grid-template-columns: 46px 1fr auto; column-gap: 1.1rem; align-items: center; padding: 1.1rem 0; border-bottom: 1px solid var(--blush); }
+.service:last-child { border-bottom: 0; }
+.service > i { grid-row: 1 / 3; font-size: 1.05rem; color: var(--magenta); background: var(--blush); width: 46px; height: 46px; display: grid; place-items: center; border-radius: 50%; }
+.service h3 { grid-column: 2; font-size: 1.3rem; margin: 0; }
+.service p { grid-column: 2; font-size: .86rem; color: var(--gris); margin: .15rem 0 0; }
+.service .btn { grid-column: 3; grid-row: 1 / 3; }
 
 .steps--3 { grid-template-columns: repeat(3, 1fr); }
 
@@ -276,7 +278,6 @@ h1 em { font-style: italic; color: var(--magenta); }
   .why, .steps { grid-template-columns: repeat(2, 1fr); }
   .doors { grid-template-columns: repeat(2, 1fr); }
   .door img { aspect-ratio: 1 / 1; }
-  .services { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 900px) {
@@ -319,7 +320,13 @@ h1 em { font-style: italic; color: var(--magenta); }
   .syllabus__col:last-child ol { grid-template-columns: 1fr; }
   .contact__map iframe { height: 320px; }
   .rates { padding: .4rem 1.1rem 1rem; }
-  .doors, .services, .steps--3 { grid-template-columns: 1fr; }
+  .doors, .steps--3 { grid-template-columns: 1fr; }
+  .services { padding: .2rem 1.1rem; }
+  .service { grid-template-columns: 40px 1fr 42px; column-gap: .8rem; }
+  .service > i { width: 40px; height: 40px; font-size: .95rem; }
+  .service h3 { font-size: 1.15rem; }
+  .service .btn { font-size: 0; width: 42px; height: 42px; padding: 0; justify-content: center; border-radius: 50%; }
+  .service .btn i { font-size: 1.1rem; margin: 0; }
   .home-hero { padding: 3rem 0 2.2rem; }
   .doors-wrap { padding-bottom: 3.5rem; }
   .footer__accounts { flex-direction: column; align-items: center; text-align: center; }
