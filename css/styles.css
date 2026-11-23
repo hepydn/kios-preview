@@ -222,6 +222,47 @@ h1 em { font-style: italic; color: var(--magenta); }
 .footer__copy { text-align: center; font-size: .78rem; padding-top: 1.5rem; }
 .footer__copy a { text-decoration: underline; }
 
+.footer__accounts { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 1.8rem; padding-top: 1.5rem; font-size: .8rem; }
+.footer__accounts a { color: #fff; font-weight: 600; margin-right: .3rem; }
+.footer__accounts a:hover { color: var(--rosa); }
+
+/* ========== MENÚ: PÁGINA ACTIVA ========== */
+.navbar__links a.is-active { color: var(--magenta); }
+.navbar__links a.is-active::after { width: 100%; }
+
+/* ========== INICIO: DISTRIBUIDOR ========== */
+.home-hero { padding: 4.5rem 0 3rem; text-align: center; background: radial-gradient(circle at 85% 10%, #f8dce8 0, transparent 45%), var(--crema); }
+.home-hero h1 { max-width: 860px; margin-inline: auto; }
+.home-hero .hero__lead { margin-inline: auto; max-width: 640px; }
+.doors-wrap { padding: 0 0 5rem; }
+.doors { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.4rem; }
+.door { background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; transition: transform .3s; }
+.door:hover { transform: translateY(-6px); }
+.door img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.door__body { padding: 1.5rem 1.4rem 1.7rem; display: flex; flex-direction: column; flex: 1; }
+.door__body .eyebrow { margin-bottom: .4rem; font-size: .66rem; }
+.door__body h2 { font-size: 2.1rem; }
+.door__body p:not(.eyebrow) { font-size: .86rem; color: var(--gris); margin: .5rem 0 1.2rem; }
+.door__cta { margin-top: auto; font-weight: 600; font-size: .85rem; color: var(--magenta); }
+.door:hover .door__cta i { transform: translateX(4px); }
+.door__cta i { transition: transform .25s; margin-left: .3rem; }
+
+/* ========== CABECERA DE PÁGINA INTERNA ========== */
+.page-hero { padding: 4rem 0; background: radial-gradient(circle at 85% 20%, #f8dce8 0, transparent 45%), var(--crema); }
+.page-hero__inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: center; }
+.page-hero__img { width: 100%; max-width: 420px; margin-inline: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 210px 210px var(--radius) var(--radius); box-shadow: var(--shadow); }
+.page-first { padding-top: 4rem; }
+.h2 { font-size: clamp(2rem, 3.6vw, 2.9rem); }
+
+/* ========== SERVICIOS DEL STUDIO ========== */
+.services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+.service { background: #fff; border-radius: var(--radius); padding: 2rem 1.6rem; display: flex; flex-direction: column; align-items: flex-start; }
+.service > i { font-size: 1.4rem; color: var(--magenta); background: var(--blush); width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; margin-bottom: 1.1rem; }
+.service p { font-size: .88rem; color: var(--gris); margin: .4rem 0 1.4rem; }
+.service .btn { margin-top: auto; }
+
+.steps--3 { grid-template-columns: repeat(3, 1fr); }
+
 /* ========== WHATSAPP FLOTANTE ========== */
 .wa-float { position: fixed; right: 22px; bottom: 22px; z-index: 60; width: 58px; height: 58px; border-radius: 50%; background: #25d366; color: #fff; display: grid; place-items: center; font-size: 1.8rem; box-shadow: 0 10px 25px rgba(37, 211, 102, .4); transition: transform .25s; }
 .wa-float:hover { transform: scale(1.08); }
@@ -233,6 +274,9 @@ h1 em { font-style: italic; color: var(--magenta); }
 /* ========== RESPONSIVE ========== */
 @media (max-width: 1100px) {
   .why, .steps { grid-template-columns: repeat(2, 1fr); }
+  .doors { grid-template-columns: repeat(2, 1fr); }
+  .door img { aspect-ratio: 16 / 10; }
+  .services { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 900px) {
@@ -242,7 +286,8 @@ h1 em { font-style: italic; color: var(--magenta); }
   .navbar__cta { margin-left: auto; }
   .navbar__burger { display: block; }
 
-  .hero__inner, .split, .contact, .syllabus, .courses, .extras, .rental { grid-template-columns: 1fr; gap: 2rem; }
+  .hero__inner, .split, .contact, .syllabus, .courses, .extras, .rental, .page-hero__inner { grid-template-columns: 1fr; gap: 2rem; }
+  .steps--3 { grid-template-columns: 1fr; }
   .hero__inner, .split, .contact { gap: 3rem; }
   .hero__media { height: 440px; }
   .gallery { grid-template-columns: repeat(3, 1fr); }
@@ -254,6 +299,7 @@ h1 em { font-style: italic; color: var(--magenta); }
   .topbar__hide-sm { display: none; }
   .navbar__cta span { display: none; }
   .navbar__cta { padding: .7rem .9rem; }
+  .logo__sub { font-size: .5rem; letter-spacing: .2em; white-space: nowrap; }
   .section { padding: 4.2rem 0; }
   .hero { padding: 3rem 0 4rem; }
   .hero__stats { gap: 1.4rem; }
@@ -273,4 +319,8 @@ h1 em { font-style: italic; color: var(--magenta); }
   .syllabus__col:last-child ol { grid-template-columns: 1fr; }
   .contact__map iframe { height: 320px; }
   .rates { padding: .4rem 1.1rem 1rem; }
+  .doors, .services, .steps--3 { grid-template-columns: 1fr; }
+  .home-hero { padding: 3rem 0 2.2rem; }
+  .doors-wrap { padding-bottom: 3.5rem; }
+  .footer__accounts { flex-direction: column; align-items: center; text-align: center; }
 }

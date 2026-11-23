@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tienda Kios: adhesivos, pestañas, pigmentos, cartuchos, dermógrafos y productos de estética. Tienda física en Sabana Grande, Caracas, y envíos a todo el país." />
+  <title>Tienda Kios — Productos de Cejas, Pestañas y Estética en Caracas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/tienda.css" />
+</head>
+<body>
+
+  <!-- ========== BARRA DE AVISO ========== -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span><i class="fas fa-truck"></i> Tienda física en Sabana Grande · Envíos a todo el país</span>
+      <span class="topbar__hide-sm"><i class="fas fa-location-dot"></i> Sabana Grande, Caracas</span>
+    </div>
+  </div>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Kios, ir al inicio">
+        <span class="logo__word">Kios</span>
+        <span class="logo__sub">Tienda · Studio · Academia</span>
+      </a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="tienda.html" class="is-active">Tienda</a>
+        <a href="studio.html">Studio</a>
+        <a href="academia.html">Academia</a>
+        <a href="alquiler.html">Alquiler</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn--primary navbar__cta" data-wa="los productos de la tienda" data-phone="584242256294">
+        <i class="fab fa-whatsapp"></i> <span>Escribir a la tienda</span>
+      </a>
+
+      <button class="navbar__burger" id="burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== CABECERA ========== -->
+    <section class="shop-head">
+      <div class="container">
+        <p class="eyebrow">Tienda Kios</p>
+        <h1>Todo para cejas, pestañas y <em>estética</em></h1>
+        <p class="hero__lead">Elige tus productos y pídelos por WhatsApp. Te confirmamos disponibilidad, pago y envío.</p>
+      </div>
+    </section>
+
+    <!-- ========== CATÁLOGO ========== -->
+    <section class="shop" id="catalogo">
+      <div class="container">
+        <div class="shop__bar">
+          <label class="shop__search">
+            <i class="fas fa-magnifying-glass"></i>
+            <input type="search" id="search" placeholder="Busca un producto: cartuchos, adhesivo, pigmento…" aria-label="Buscar producto" />
+          </label>
+          <select id="brand" aria-label="Filtrar por marca"><option value="">Todas las marcas</option></select>
+        </div>
+
+        <div class="shop__tabs" id="tabs" role="tablist"></div>
+        <div class="shop__subs" id="subs"></div>
+
+        <p class="shop__count" id="count"></p>
+        <div class="products" id="products"><p class="shop__empty">Cargando productos…</p></div>
+      </div>
+    </section>
+
+    <!-- ========== CÓMO COMPRAR ========== -->
+    <section class="section section--blush section--tight">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Cómo comprar</p>
+          <h2>Pide en 3 pasos</h2>
+        </div>
+        <ol class="steps steps--3">
+          <li><span>1</span><h3>Elige</h3><p>Pulsa «Pedir» en cada producto y se abre WhatsApp con tu pedido escrito.</p></li>
+          <li><span>2</span><h3>Confirma</h3><p>Te confirmamos disponibilidad y total. Pagas por Zelle, Binance, PayPal*, bolívares o efectivo.</p></li>
+          <li><span>3</span><h3>Recibe</h3><p>Retira en la tienda de Sabana Grande o recíbelo con envío a todo el país.</p></li>
+        </ol>
+        <p class="shop__note">*La comisión de PayPal corre por cuenta del cliente.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== DETALLE DE PRODUCTO ========== -->
+  <dialog class="detail" id="detail">
+    <button class="detail__close" id="detailClose" aria-label="Cerrar">&times;</button>
+    <div id="detailBody"></div>
+  </dialog>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="logo__word logo__word--light">Kios</span>
+        <p>Tienda, studio, academia y alquiler de salones de cejas y pestañas en Sabana Grande, Caracas.</p>
+      </div>
+      <nav class="footer__links">
+        <a href="tienda.html">Tienda</a>
+        <a href="studio.html">Studio</a>
+        <a href="academia.html">Academia</a>
+        <a href="alquiler.html">Alquiler</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/kiostienda/" target="_blank" rel="noopener" aria-label="Instagram de la tienda"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@kiosoficial" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://wa.me/582127624461" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <ul class="footer__accounts">
+      <li><a href="https://www.instagram.com/kiostienda/" target="_blank" rel="noopener">@kiostienda</a> productos y envíos</li>
+      <li><a href="https://www.instagram.com/kios.studio/" target="_blank" rel="noopener">@kios.studio</a> servicios y cursos</li>
+      <li><a href="https://www.instagram.com/kios.micropigmentacion/" target="_blank" rel="noopener">@kios.micropigmentacion</a> cejas y micropigmentación</li>
+      <li><a href="https://www.tiktok.com/@kiosoficial" target="_blank" rel="noopener">TikTok @kiosoficial</a> novedades de la tienda</li>
+    </ul>
+    <p class="footer__copy">© <span id="year"></span> Kios C y P · Caracas, Venezuela · <a href="privacidad.html">Política de privacidad</a></p>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOTANTE ========== -->
+  <a class="wa-float" data-wa="los productos de la tienda" data-phone="584242256294" aria-label="Escríbenos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/tienda.js"></script>
+</body>
+</html>
