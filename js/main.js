@@ -49,7 +49,7 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // ========== CARRUSEL DEL STUDIO ==========
-// Pasa las fotos de derecha a izquierda en bucle
+// Pasa las fotos de derecha a izquierda en bucle; las flechas permiten cambiarlas a mano
 const slider = document.getElementById('slider');
 if (slider) {
   const track = slider.querySelector('.slider__track');
@@ -58,11 +58,20 @@ if (slider) {
   clone.alt = ''; clone.setAttribute('aria-hidden', 'true');
   track.appendChild(clone);
   let i = 0;
-  const reset = () => { i = 0; track.style.transition = 'none'; track.style.transform = 'translateX(0)'; void track.offsetWidth; };
-  const go = () => {
-    if (i >= total) reset();
-    i++; track.style.transition = ''; track.style.transform = `translateX(-${i * 100}%)`;
+  const move = (n, animate) => {
+    i = n;
+    track.style.transition = animate ? '' : 'none';
+    track.style.transform = `translateX(-${i * 100}%)`;
+    if (!animate) void track.offsetWidth; // aplica el salto antes de la siguiente animación
   };
-  track.addEventListener('transitionend', () => { if (i >= total) reset(); });
-  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) setInterval(go, 3500);
+  const next = () => { if (i >= total) move(0, false); move(i + 1, true); };
+  const prev = () => { if (i <= 0) move(total, false); move(i - 1, true); };
+  track.addEventListener('transitionend', () => { if (i >= total) move(0, false); });
+
+  const auto = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let timer;
+  const restart = () => { clearInterval(timer); if (auto) timer = setInterval(next, 3500); };
+  slider.querySelector('.slider__btn--next').addEventListener('click', () => { next(); restart(); });
+  slider.querySelector('.slider__btn--prev').addEventListener('click', () => { prev(); restart(); });
+  restart();
 }
