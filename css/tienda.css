@@ -30,6 +30,8 @@
 .product { background: #fff; border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; border: 1px solid var(--borde); position: relative; }
 .product__img { aspect-ratio: 1; background: var(--blush); display: grid; place-items: center; }
 .product__img img { width: 100%; height: 100%; object-fit: contain; }
+.products .product__img { position: relative; overflow: hidden; }
+.products .product__img img { position: absolute; inset: 0; }
 .product__img > i { font-size: 2.2rem; color: var(--rosa); }
 .product__tag { position: absolute; top: .7rem; left: .7rem; background: var(--oscuro); color: #fff; font-size: .66rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: .3rem .6rem; border-radius: 6px; }
 .product__body { padding: .9rem 1rem 1rem; display: flex; flex-direction: column; flex: 1; }
