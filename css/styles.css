@@ -63,6 +63,8 @@ h1 em { font-style: italic; color: var(--magenta); }
 .logo__word { font-family: var(--font-script); font-size: 2.6rem; color: var(--magenta); }
 .logo__word--light { color: var(--rosa); }
 .logo__sub { font-size: .6rem; letter-spacing: .3em; text-transform: uppercase; color: var(--gris); margin-top: -.2rem; }
+.logo__sub a { color: inherit; padding: .35rem 0; transition: color .2s; }
+.logo__sub a:hover { color: var(--magenta); }
 .navbar__links { display: flex; gap: 2rem; margin-left: auto; }
 .navbar__links a { font-size: .84rem; font-weight: 500; letter-spacing: .05em; position: relative; }
 .navbar__links a::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 0; height: 1.5px; background: var(--magenta); transition: width .25s; }
