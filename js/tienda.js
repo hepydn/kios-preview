@@ -5,7 +5,7 @@ const WHATSAPP_TIENDA = '584242256294';
 // Mientras esté vacío, la tienda lee data/productos.csv del propio repositorio.
 const CATALOGO_URL = '';
 // Orden de las pestañas; una categoría nueva en la hoja aparece al final
-const CATEGORIAS = ['Cejas', 'Pestañas', 'Bioseguridad', 'Faciales', 'Aparatología', 'Depilación', 'Estética'];
+const CATEGORIAS = ['Cejas', 'Pestañas', 'Bioseguridad', 'Faciales y corporales', 'Aparatología', 'Depilación'];
 
 const $ = id => document.getElementById(id);
 const state = { products: [], cat: '', sub: '', brand: '', q: '' };
@@ -31,6 +31,7 @@ function parseCSV(text) {
   if (field || row.length) { row.push(field); rows.push(row); }
 
   const [header, ...data] = rows;
+  header[0] = header[0].replace(/^﻿/, ''); // BOM que añade Excel
   const keys = header.map(h => h.trim().toLowerCase());
   return data
     .filter(r => r.some(v => v.trim()))

@@ -1,6 +1,9 @@
 /* ========== CABECERA ========== */
 .shop-head { padding: 3.5rem 0 2rem; text-align: center; background: radial-gradient(circle at 85% 10%, #f8dce8 0, transparent 45%), var(--crema); }
 .shop-head .hero__lead { margin: 1rem auto 0; max-width: 600px; }
+.shop-head__info { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 1.8rem; margin-top: 1.2rem; font-size: .86rem; font-weight: 500; }
+.shop-head__info i { color: var(--magenta); margin-right: .35rem; }
+.shop-head__info a:hover { color: var(--magenta); }
 
 /* ========== BARRA: BUSCADOR Y MARCA ========== */
 .shop { padding: 1rem 0 5rem; }
@@ -40,7 +43,7 @@
 .product__buy input { width: 54px; font: inherit; font-size: .85rem; text-align: center; border: 1px solid var(--borde); border-radius: 999px; }
 .product__buy .btn { flex: 1; padding: .55rem .6rem; font-size: .78rem; }
 .product--out .product__img { opacity: .45; }
-.product--out .product__buy .btn { border-color: var(--gris); color: var(--gris); }
+.product--out .product__buy .btn { background: transparent; border-color: var(--gris); color: var(--gris); }
 .product--out .product__buy .btn:hover { background: var(--gris); color: #fff; }
 .shop__empty { grid-column: 1 / -1; text-align: center; color: var(--gris); padding: 3rem 0; }
 .shop__note { text-align: center; font-size: .76rem; color: var(--gris); margin-top: 1rem; }

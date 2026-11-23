@@ -1,12 +1,352 @@
-nombre,categoria,subcategoria,marca,precio,precio_volumen,agotado,foto,detalle
-Adhesivo Kios Premium 3 ml,Pestañas,Adhesivos,Kios,,,no,,
-Primer Kios,Pestañas,Preparación,Kios,,,no,,
-Espuma de extensiones Kios,Pestañas,Preparación,Kios,,,no,,
-"Pestañas Kios 0,15 C y D",Pestañas,Pestañas,Kios,,,no,,
-"Pestañas Kios 0,10 y 0,12 CC",Pestañas,Pestañas,Kios,,,no,,
-Pestañas tecnológicas Diamond W 3D,Pestañas,Pestañas,Kios,,,no,,
-Par de pinzas curva y recta,Pestañas,Herramientas,,,,no,,
-Pigmento semipermanente Kios,Cejas,Pigmentos,Kios,,,no,,
-Hilo tinturado Kios,Cejas,Diseño,Kios,,,no,,
-Calibrador / Vernier,Cejas,Diseño,,,,no,,
-Pinza para cejas,Cejas,Herramientas,,,,no,,
+﻿nombre,categoria,subcategoria,marca,precio,precio_volumen,agotado,foto,detalle
+Agujas para dermógrafo eléctrico genérico 1R y 3R (12 unidades),Cejas,Agujas y cartuchos,,"3,44",,no,assets/productos/agujas-para-dermografo-electrico-generico-1r-y-3r-12-unidade.jpg,
+Cartucho para dermógrafo Cheyenne,Cejas,Agujas y cartuchos,Cheyenne,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",si,assets/productos/cartucho-para-dermografo-cheyenne.jpg,
+Cartucho para dermógrafo Charmant II,Cejas,Agujas y cartuchos,Charmant,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",si,assets/productos/cartucho-para-dermografo-charmant-ii.jpg,
+Cartucho para dermógrafo Princess,Cejas,Agujas y cartuchos,,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",no,assets/productos/cartucho-para-dermografo-princess.jpg,
+Cartucho para dermógrafo inalámbrico,Cejas,Agujas y cartuchos,,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",no,assets/productos/cartucho-para-dermografo-inalambrico.jpg,
+Cartucho para dermógrafo Biomaser,Cejas,Agujas y cartuchos,Biomaser,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",no,assets/productos/cartucho-para-dermografo-biomaser.jpg,
+Cartucho para dermógrafo rotativo con puntas de dermapen,Cejas,Agujas y cartuchos,,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",no,assets/productos/cartucho-para-dermografo-rotativo-con-puntas-de-dermapen.jpg,
+Cartucho para dermapen,Cejas,Agujas y cartuchos,,"2,6","Desde 10 unid: 2,3$ c/u · desde 20 unid: 1,6$ c/u",no,assets/productos/cartucho-para-dermapen.jpg,
+Punteros para dermógrafo eléctrico 1R y 3R (12 unidades),Cejas,Agujas y cartuchos,,"1,75",,no,assets/productos/punteros-para-dermografo-electrico-1r-y-3r-12-unidades.jpg,
+"Slope U-blade 18P grosor 0,18",Cejas,Slopes,,"0,45","Desde 100 unid: 0,40$ c/u",no,assets/productos/slope-u-blade-18p-grosor-0-18.jpg,
+"Slope U-blade 12P grosor 0,18",Cejas,Slopes,,"0,45","Desde 100 unid: 0,40$ c/u",si,assets/productos/slope-u-blade-12p-grosor-0-18.jpg,
+Slope ascendente 7P,Cejas,Slopes,,"0,39","Desde 100 unid: 0,30$ c/u",no,assets/productos/slope-ascendente-7p.jpg,
+Slope ascendente 12P y 14P,Cejas,Slopes,,"0,39","Desde 100 unid: 0,30$ c/u",no,assets/productos/slope-ascendente-12p-y-14p.jpg,
+"Slope U-blade 18P grosor 0,20",Cejas,Slopes,,"0,45","Desde 100 unid: 0,40$ c/u",no,assets/productos/slope-u-blade-18p-grosor-0-20.jpg,
+Slope RUM 17P,Cejas,Slopes,,"0,45",,no,assets/productos/slope-rum-17p.jpg,
+"Slope U-blade 18P grosor 0,16",Cejas,Slopes,,"0,58","Desde 100 unid: 0,40$ c/u",no,assets/productos/slope-u-blade-18p-grosor-0-16.jpg,
+Slope flat 9P,Cejas,Slopes,,"0,45",,no,assets/productos/slope-flat-9p.jpg,
+Slope RUM 7P,Cejas,Slopes,,"0,45",,no,assets/productos/slope-rum-7p.jpg,
+"Slope U 21 puntas grosor 0,15",Cejas,Slopes,,"0,58",,no,assets/productos/slope-u-21-puntas-grosor-0-15.jpg,
+Anestesia Rambo,Cejas,Anestesias,Rambo,"9,1",,si,assets/productos/anestesia-rambo.jpg,
+Anestesia profesional Mash Nova,Cejas,Anestesias,Mash Nova,"19,5","7,5 ml: 19,5$ · 15 ml: 32,5$",no,assets/productos/anestesia-profesional-mash-nova.jpg,
+Anestesia para labios P.C.D,Cejas,Anestesias,P.C.D,13,Caja de 10: 10$,no,assets/productos/anestesia-para-labios-p-c-d.jpg,
+Fijador de pigmentos Biomaser,Cejas,Anestesias,Biomaser,,,si,assets/productos/fijador-de-pigmentos-biomaser.jpg,
+Anestesia TKTX,Cejas,Anestesias,TKTX,"9,1",,no,assets/productos/anestesia-tktx.jpg,
+Anillos copitas (12 unidades),Cejas,Anillos,,13,"100 unidades: 7,8$",no,assets/productos/anillos-copitas-12-unidades.jpg,
+Anillos para volumen (10 unidades),Cejas,Anillos,,1,"100 unidades: 7,8$",no,assets/productos/anillos-para-volumen-10-unidades.jpg,
+Anillos copitas con división (12 unidades),Cejas,Anillos,,"1,3","100 unidades: 7,8$",no,assets/productos/anillos-copitas-con-division-12-unidades.jpg,
+Anillo reusable,Cejas,Anillos,,"0,65",,no,assets/productos/anillo-reusable.jpg,
+Anillo para flor,Cejas,Anillos,,"0,65",,no,assets/productos/anillo-para-flor.jpg,
+Anillos con tapas (10 unidades),Cejas,Anillos,,"2,6",100 unidades: 13$,no,assets/productos/anillos-con-tapas-10-unidades.jpg,
+Anillos hondos (12 unidades),Cejas,Anillos,,"1,3","100 unidades: 7,8$",no,assets/productos/anillos-hondos-12-unidades.jpg,
+Cups para anillos reusables (20 unidades),Cejas,Anillos,,"1,3",,no,assets/productos/cups-para-anillos-reusables-20-unidades.jpg,
+Creyón marrón,Cejas,Marcadores y creyones,,1,,no,assets/productos/creyon-marron.jpg,
+Creyón negro,Cejas,Marcadores y creyones,,2,,no,assets/productos/creyon-negro.jpg,
+Creyón gris,Cejas,Marcadores y creyones,,1,,si,assets/productos/creyon-gris.jpg,
+Creyón blanco,Cejas,Marcadores y creyones,,"1,3",,no,assets/productos/creyon-blanco.jpg,
+Borrador de marcador quirúrgico,Cejas,Marcadores y creyones,,,,si,assets/productos/borrador-de-marcador-quirurgico.jpg,
+Marcador quirúrgico,Cejas,Marcadores y creyones,,"3,9",,no,assets/productos/marcador-quirurgico.jpg,
+Marcador en gel blanco,Cejas,Marcadores y creyones,,"1,8",,no,assets/productos/marcador-en-gel-blanco.jpg,
+Marcador en gel para labios,Cejas,Marcadores y creyones,,"2,6",2 unidades: 4$,no,assets/productos/marcador-en-gel-para-labios.jpg,
+"Dermógrafo inalámbrico Mash Nova (negro, dorado, plateado)",Cejas,Dermógrafos,Mash Nova,78,,si,assets/productos/dermografo-inalambrico-mash-nova-negro-dorado-plateado.jpg,"Batería incorporada recargable
+Excelente estabilidad y bajo ruido
+Cargador tipo C
+Stroke: 2,5 mm
+Frecuencia ajustable de 22.000 a 35.000 rpm
+Voltaje: 100–240 V
+Velocidad: 3 niveles
+Material: aleación de aluminio
+Motor japonés
+Peso: 67 g
+Nota: puedes hacer trabajos de dermapen con agujas de 12 puntas y nano round."
+Dermógrafo rotativo Mash Nova (negro y crema),Cejas,Dermógrafos,Mash Nova,,,si,assets/productos/dermografo-rotativo-mash-nova-negro-y-crema.jpg,"Motor importado de precisión, bajo nivel de ruido y vibración.
+Stroke: 3 mm
+Frecuencia ajustable de 22.000 a 35.000 rpm
+Voltaje: 100–240 V
+Velocidad: 5 niveles
+Mini pantalla LED
+Dos cabezales: cartuchos universales a presión (click) y de rosca
+Batería: 4 horas de trabajo, incluye 2 baterías
+Cargador tipo C
+Peso: 86 g
+Material: aleación de aluminio"
+Dermógrafo rotativo Biomaser P30,Cejas,Dermógrafos,Biomaser,,,si,assets/productos/dermografo-rotativo-biomaser-p30.jpg,"Para micropigmentación de cejas, labios, delineado de ojos y cuero cabelludo.
+Alta velocidad (11.600 rpm), potente (1–24 W), stroke 2,5 mm, bajo ruido y poca vibración.
+Anillo de luz LED en la máquina y en la pieza de mano.
+Usa cartucho de aguja universal.
+Funciona conectado a la corriente o de forma inalámbrica (con batería de 5 horas, se vende aparte).
+Incluye: máquina, pen, adaptador y cable de mano, 1 aguja de cartucho y caja."
+Dermógrafo Biomaser U1 Pro,Cejas,Dermógrafos,Biomaser,260,,no,assets/productos/dermografo-biomaser-u1-pro.jpg,"Dos boquillas para cartuchos
+Batería: 2000 mAh (2 piezas)
+Tiempo de carga: 2 horas
+Tiempo de trabajo: 5–6 horas
+Conector híbrido: inalámbrico y RCA
+Peso: 112 g
+Material: aluminio
+Stroke: 3 mm
+Input: 5 V · output: 4–10 V
+Medida: 23 × 146 mm"
+Dermógrafo inalámbrico Biomaser TP006 (negro),Cejas,Dermógrafos,Biomaser,,,si,assets/productos/dermografo-inalambrico-biomaser-tp006-negro.jpg,"Cable tipo C
+Batería incorporada 5 V 1000 mAh
+Cartuchos universales
+Tiempo de carga: 2–3 horas
+Tiempo de trabajo: 4–5 horas
+Peso: 91 g
+Tamaño: 22 × 144 mm
+Voltaje: 4–12 V
+Stroke: 3 mm"
+Dermógrafo Biomaser P90,Cejas,Dermógrafos,Biomaser,,,si,assets/productos/dermografo-biomaser-p90.jpg,"Máquina de micropigmentación con motor potente y ligero, salida de 4–12 V.
+Pantalla digital para ajustar la profundidad de la aguja; velocidad de 10.000 rpm.
+Para cejas, labios, delineado y cuero cabelludo.
+Acepta agujas de cartucho de tornillo y agujas universales.
+Incluye: máquina PMU CTGE004, fuente de alimentación P90, cable de conexión, adaptador, 1 aguja de cartucho de tornillo y batería mini.
+Batería de litio 1600 mAh: carga en 6 horas, trabaja de 8 a 12 horas. Peso: 52 g."
+Dermógrafo Xiom Mini de Microbeau,Cejas,Dermógrafos,Microbeau,715,,no,assets/productos/dermografo-xiom-mini-de-microbeau.jpg,"Máquina inalámbrica y portátil con motor patentado de 6 V y batería Airbolt Mini.
+Rango de trabajo: 5 a 10 V
+Conexión USB (cable tipo C incluido)
+Stroke: 3 mm
+Grip cónico de 26–20 mm
+Color plata
+Garantía: 1 año
+Fabricada en EE. UU.
+Batería Airbolt Mini: hasta 10 horas, pantalla LED de voltaje, control por Bluetooth con la app Darklab, almohadilla magnética antideslizante, peso 102 g (73 × 48 × 24 mm)."
+Convertidor recargable (batería mini power supply),Cejas,Dermógrafos,,"71,5",,no,assets/productos/convertidor-recargable-bateria-mini-power-supply.jpg,"Batería mini power supply
+Entrada: cargador DC 5 V
+Salida: 4–12 V
+Batería de litio de 1600 mAh
+Tiempo de carga: 6 horas
+Tiempo de trabajo: 8–12 horas
+Peso: 52 g
+Conexión: RCA
+Incluye clave USB
+Nota: no usar cargador superior a 5 V."
+Plumilla de metal,Cejas,Accesorios de micropigmentación,,"2,6",,no,assets/productos/plumilla-de-metal.jpg,
+Plumilla de cristal,Cejas,Accesorios de micropigmentación,,"2,6",,no,assets/productos/plumilla-de-cristal.jpg,
+Cinta para dermógrafo,Cejas,Accesorios de micropigmentación,,"2,6","Pequeña: 1×2,6$ · 2×3,9$ · 3×5,2$ — Grande: 1×5,2$ · 2×7,8$ · 3×10,4$",no,assets/productos/cinta-para-dermografo.jpg,
+Círculo cromático,Cejas,Accesorios de micropigmentación,,"3,9",,si,assets/productos/circulo-cromatico.jpg,
+Clip cord sleeves (25 unidades),Cejas,Accesorios de micropigmentación,,,,si,assets/productos/clip-cord-sleeves-25-unidades.jpg,
+Compás ruler,Cejas,Accesorios de micropigmentación,,"15,6",,no,assets/productos/compas-ruler.jpg,
+Compás áureo,Cejas,Accesorios de micropigmentación,,"14,3",,no,assets/productos/compas-aureo.jpg,
+Porta dermógrafo Mash Nova,Cejas,Accesorios de micropigmentación,Mash Nova,"6,5",,no,assets/productos/porta-dermografo-mash-nova.jpg,
+Porta dermógrafo (negro y azul),Cejas,Accesorios de micropigmentación,,"3,9",,no,assets/productos/porta-dermografo-negro-y-azul.jpg,
+Vitaminas A+D (sobre),Cejas,Accesorios de micropigmentación,,"0,65","10 unidades: 5,2$",no,assets/productos/vitaminas-a-d-sobre.jpg,
+TT After Cream,Cejas,Accesorios de micropigmentación,Luanes,5,,no,assets/productos/tt-after-cream.jpg,
+Mezclador de pigmento o adhesivo,Cejas,Accesorios de micropigmentación,,,,si,assets/productos/mezclador-de-pigmento-o-adhesivo.jpg,
+Mezclador de pigmentos,Cejas,Accesorios de micropigmentación,,"6,5",,no,assets/productos/mezclador-de-pigmentos.jpg,
+Guantes para dedos (10 unidades),Cejas,Práctica,,"1,3",,no,assets/productos/guantes-para-dedos-10-unidades.jpg,
+Cara de maniquí,Cejas,Práctica,,"5,2",Base + piel: consultar,no,assets/productos/cara-de-maniqui.jpg,
+Maniquí 3D para prácticas con pestañas,Cejas,Práctica,,,,si,assets/productos/maniqui-3d-para-practicas-con-pestanas.jpg,
+Piel de labios,Cejas,Práctica,,,,si,assets/productos/piel-de-labios.jpg,
+Piel de ojos,Cejas,Práctica,,"2,6",,no,assets/productos/piel-de-ojos.jpg,
+Piel lisa beige,Cejas,Práctica,,"2,6",,si,assets/productos/piel-lisa-beige.jpg,
+Piel de cejas sin pigmento,Cejas,Práctica,,,,si,assets/productos/piel-de-cejas-sin-pigmento.jpg,
+Pigmento KP para cejas,Cejas,Pigmentos de cejas,KP,"28,6",,no,assets/productos/pigmento-kp-para-cejas.jpg,
+Pigmento Maser para cejas,Cejas,Pigmentos de cejas,Maser,"18,2",,no,assets/productos/pigmento-maser-para-cejas.jpg,
+Brow Daddy para cejas,Cejas,Pigmentos de cejas,Brow Daddy,35,Promo,si,assets/productos/brow-daddy-para-cejas.jpg,
+Pigmento Biotouch para cejas,Cejas,Pigmentos de cejas,Biotouch,25,,si,assets/productos/pigmento-biotouch-para-cejas.jpg,
+Pigmento Pure de Biotouch para cejas,Cejas,Pigmentos de cejas,Biotouch,,,si,assets/productos/pigmento-pure-de-biotouch-para-cejas.jpg,
+Pigmento Biomaser (práctica en látex),Cejas,Pigmentos de cejas,Biomaser,6,,si,assets/productos/pigmento-biomaser-practica-en-latex.jpg,
+Pigmento Gold Live Breath (práctica en látex),Cejas,Pigmentos de cejas,Gold Live Breath,"5,2",,no,assets/productos/pigmento-gold-live-breath-practica-en-latex.jpg,
+Pigmento Biotek,Cejas,Pigmentos de cejas,Biotek,"71,5",,si,assets/productos/pigmento-biotek.jpg,
+Pigmento Evenflo neutralizante,Cejas,Pigmentos de cejas,Evenflo,39,,si,assets/productos/pigmento-evenflo-neutralizante.jpg,
+Pigmento KP para labios,Cejas,Pigmentos de labios,KP,"28,6",,no,assets/productos/pigmento-kp-para-labios.jpg,
+Pigmento Maser para labios,Cejas,Pigmentos de labios,Maser,"18,2",,si,assets/productos/pigmento-maser-para-labios.jpg,
+Brow Daddy para labios,Cejas,Pigmentos de labios,Brow Daddy,35,Promo,si,assets/productos/brow-daddy-para-labios.jpg,
+Pigmento Biotouch para labios,Cejas,Pigmentos de labios,Biotouch,25,,si,assets/productos/pigmento-biotouch-para-labios.jpg,
+Pigmento Pure de Biotouch para labios,Cejas,Pigmentos de labios,Biotouch,,,si,assets/productos/pigmento-pure-de-biotouch-para-labios.jpg,
+Pigmento Evenflo para labios,Cejas,Pigmentos de labios,Evenflo,40,,si,assets/productos/pigmento-evenflo-para-labios.jpg,
+Pigmento Gold Live Breath para labios (práctica en látex),Cejas,Pigmentos de labios,Gold Live Breath,"5,2",,no,assets/productos/pigmento-gold-live-breath-para-labios-practica-en-latex.jpg,
+Diluyente True Healed Colors,Cejas,Pigmentos de labios,Evenflo,,,si,assets/productos/diluyente-true-healed-colors.jpg,
+Set completo de tinte Bronsun (8 tonos + 2 activadores),Cejas,Tintes,Bronsun,195,Pagando en divisas tienes descuento,no,assets/productos/set-completo-de-tinte-bronsun-8-tonos-2-activadores.jpg,
+Tinte grande Bronsun Dye Gel,Cejas,Tintes,Bronsun,30,,no,assets/productos/tinte-grande-bronsun-dye-gel.jpg,
+Kit de tinte pequeño Bronsun + activador + envase de mezcla,Cejas,Tintes,Bronsun,30,,no,assets/productos/kit-de-tinte-pequeno-bronsun-activador-envase-de-mezcla.jpg,
+Activador Bronsun Cream Developer 3%,Cejas,Tintes,Bronsun,"18,4",,no,assets/productos/activador-bronsun-cream-developer-3.jpg,
+Removedor de tinte Bronsun,Cejas,Tintes,Bronsun,"18,4",,no,assets/productos/removedor-de-tinte-bronsun.jpg,
+"Bigen (tonos 46, 47, 48 y 58)",Cejas,Tintes,Bigen,,,si,assets/productos/bigen-tonos-46-47-48-y-58.jpg,
+Color-1 tinte negro,Cejas,Tintes,Color-1,"1,3",,no,assets/productos/color-1-tinte-negro.jpg,
+Perfilador de cejas,Cejas,Diseño y medición,,2,,no,assets/productos/perfilador-de-cejas.jpg,
+Regla transparente,Cejas,Diseño y medición,,"1,3",,no,assets/productos/regla-transparente.jpg,
+Copa para pigmento semipermanente,Cejas,Diseño y medición,,"0,65",,no,assets/productos/copa-para-pigmento-semipermanente.jpg,
+Calibrador vernier,Cejas,Diseño y medición,,"2,6",,no,assets/productos/calibrador-vernier.jpg,
+Mapping ruler,Cejas,Diseño y medición,,"10,4",,no,assets/productos/mapping-ruler.jpg,
+Pinza para cejas punta media,Cejas,Pinzas y tijeras,,"2,6",,si,assets/productos/pinza-para-cejas-punta-media.jpg,
+Pinza para cejas ascendente,Cejas,Pinzas y tijeras,,"2,6",,no,assets/productos/pinza-para-cejas-ascendente.jpg,
+Pinza para cejas ascendente con agarre,Cejas,Pinzas y tijeras,,"2,6",,no,assets/productos/pinza-para-cejas-ascendente-con-agarre.jpg,
+Pinza para cejas tornasol,Cejas,Pinzas y tijeras,,"2,6",,no,assets/productos/pinza-para-cejas-tornasol.jpg,
+Tijera tornasol,Cejas,Pinzas y tijeras,,"2,6",,no,assets/productos/tijera-tornasol.jpg,
+Palitos con puntas de algodón (50 unidades),Cejas,Desechables,,"1,3",100 unidades: 2$,no,assets/productos/palitos-con-puntas-de-algodon-50-unidades.jpg,
+Cepillos (20 unidades),Cejas,Desechables,,2,"50 unidades: 3,2$",no,assets/productos/cepillos-20-unidades.jpg,
+Microaplicadores (20 unidades),Cejas,Desechables,,2,"50 unidades: 3,2$",no,assets/productos/microaplicadores-20-unidades.jpg,
+Cepillos interdentales (10 unidades),Cejas,Desechables,,"1,3",,no,assets/productos/cepillos-interdentales-10-unidades.jpg,
+Pincel doble posición,Cejas,Pinceles,Kios,2,,si,assets/productos/pincel-doble-posicion.jpg,
+Pincel curvo,Cejas,Pinceles,Kios,"2,6",,no,assets/productos/pincel-curvo.jpg,
+Pincel rectangular,Cejas,Pinceles,Kios,,,si,assets/productos/pincel-rectangular.jpg,
+Pincel delgado,Cejas,Pinceles,Kios,"2,6",,no,assets/productos/pincel-delgado.jpg,
+Pincel ascendente,Cejas,Pinceles,Kios,"2,6",,si,assets/productos/pincel-ascendente.jpg,
+Fixing soap brown (jabón fijador de cejas),Cejas,Cuidado y laminado,,"4,5",,no,assets/productos/fixing-soap-brown-jabon-fijador-de-cejas.jpg,
+Exfoliante Brona de aguacate,Cejas,Cuidado y laminado,Brona,5,,no,assets/productos/exfoliante-brona-de-aguacate.jpg,
+Puluk Toxtox cejas y pestañas,Cejas,Cuidado y laminado,Puluk,,,si,assets/productos/puluk-toxtox-cejas-y-pestanas.jpg,
+Puluk Pro kit de laminado,Cejas,Cuidado y laminado,Puluk,45,,si,assets/productos/puluk-pro-kit-de-laminado.jpg,
+"Adhesivo Kios Gold (secado 0,5 seg)",Pestañas,Adhesivos y líquidos,Kios,"20,8",,no,assets/productos/adhesivo-kios-gold-secado-0-5-seg.jpg,"Tiempo de secado: 0,5 seg\nRetención: 6 a 8 semanas\nTemperatura: 20–26 °C\nHumedad: 45–75 %\nVapores bajos\nViscosidad ligera\nLibre de látex\nPresentación: 5 ml"
+"Adhesivo Kios Perfect (secado 0,3 seg)",Pestañas,Adhesivos y líquidos,Kios,"20,8",,no,assets/productos/adhesivo-kios-perfect-secado-0-3-seg.jpg,"Tiempo de secado: 0,3 seg\nRetención: 6 a 8 semanas\nTemperatura: 18–24 °C\nHumedad: 45–75 %\nVapores bajos\nViscosidad ligera\nLibre de látex\nPresentación: 5 ml"
+Adhesivo Kios Platinium (secado 1 seg),Pestañas,Adhesivos y líquidos,Kios,"19,5",,no,assets/productos/adhesivo-kios-platinium-secado-1-seg.jpg,Tiempo de secado: 1 seg\nRetención: 6 a 7 semanas\nTemperatura: 20–25 °C\nHumedad: 45–60 %\nVapores medios\nViscosidad ligera\nLibre de látex\nPresentación: 5 ml
+Adhesivo Kios Titanium transparente (secado 1 seg),Pestañas,Adhesivos y líquidos,Kios,"19,5",,no,assets/productos/adhesivo-kios-titanium-transparente-secado-1-seg.jpg,Tiempo de secado: 1 seg\nRetención: 6 a 7 semanas\nTemperatura: 18–23 °C\nHumedad: 45–60 %\nViscosidad media\nLibre de látex\nColor transparente\nPresentación: 5 ml
+Adhesivo Kios Premium (secado 1 a 2 seg),Pestañas,Adhesivos y líquidos,Kios,"15,6","3 ml: 15,6$ · 5 ml: 20,8$",no,assets/productos/adhesivo-kios-premium-secado-1-a-2-seg.jpg,"Tiempo de secado: 1 a 2 seg\nRetención: 6 a 7 semanas\nTemperatura: 20–24 °C\nVapores bajos, ideal para ojos sensibles\nHumedad: 50–70 %\nViscosidad ligera\nLibre de látex"
+Primer Kios 15 ml,Pestañas,Adhesivos y líquidos,Kios,"10,4",,no,assets/productos/primer-kios-15-ml.jpg,
+Removedor Kios en gel 15 ml,Pestañas,Adhesivos y líquidos,Kios,"10,4",,no,assets/productos/removedor-kios-en-gel-15-ml.jpg,
+Sellador Kios (bonder y booster) 15 ml,Pestañas,Adhesivos y líquidos,Kios,"19,5",,no,assets/productos/sellador-kios-bonder-y-booster-15-ml.jpg,
+Pinza lifting Kios,Pestañas,Pinzas,Kios,"10,4",,no,assets/productos/pinza-lifting-kios.jpg,
+Pinza profesional Kios tipo J,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-profesional-kios-tipo-j.jpg,
+Pinza profesional Kios curva,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-profesional-kios-curva.jpg,
+Pinza profesional Kios recta,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-profesional-kios-recta.jpg,
+Pinza L profesional Kios 75°,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-l-profesional-kios-75.jpg,
+Pinza L profesional Kios 130°,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-l-profesional-kios-130.jpg,
+Pinza L profesional Kios 110°,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-l-profesional-kios-110.jpg,
+Pinza L Kios,Pestañas,Pinzas,Kios,"16,9",,no,assets/productos/pinza-l-kios.jpg,
+Pestañas Kios de seda mixtas,Pestañas,Pestañas,Kios,"10,4",Desde 3 unidades tienes descuento,no,assets/productos/pestanas-kios-de-seda-mixtas.jpg,"Grosor 0,03: curva C, CC y D\nGrosor 0,05: curva C y CC\nGrosor 0,07: curva B, C, CC, D, DD, LC y LD\nGrosor 0,10: curva B, C y M\nGrosor 0,12: curva B, C, CC y M\nGrosor 0,15: curva B, C, D, DD, L, M, LC y LD"
+Pestañas Kios por medidas,Pestañas,Pestañas,Kios,"9,1",Desde 3 unidades tienes descuento,no,assets/productos/pestanas-kios-por-medidas.jpg,"Grosor 0,05 curva D: 7–14 mm\nGrosor 0,07 curva C, CC, D: 9–14 mm\nGrosor 0,07 curva DD, M, LC: 7–14 mm\nGrosor 0,10 curva CC: 7–14 mm\nGrosor 0,12 curva D: 7–14 mm\nGrosor 0,15 curva C, CC y D: 7–14 mm"
+Pestañas Kios de colores fácil armado,Pestañas,Pestañas,Kios,"9,1","Mixtas: 9,1$ · por medida: 7,8$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-kios-de-colores-facil-armado.jpg,"Mixtas (morada, marrón y azul): grosor 0,07, curva D, largo mix 8 a 15 mm\nPor medida (marrón): grosor 0,07, curva C y D, largo 8 a 15 mm"
+Pestañas Kios de seda fácil armado,Pestañas,Pestañas,Kios,"10,4","Mixtas: 10,4$ · por medida: 9,1$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-kios-de-seda-facil-armado.jpg,"Mixtas: grosor 0,03, 0,05 y 0,07, curva C y D, largo mix 8 a 15 mm\nPor medida: grosor 0,05 y 0,07, curva C y D, largo 8 a 15 mm"
+Pestañas Kios tecnológicas YY,Pestañas,Pestañas,Kios,"11,7","Mixtas: 11,7$ · por talla: 10,4$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-kios-tecnologicas-yy.jpg,"Mixtas: grosor 0,07, curva C, largo mix 8 a 15 mm\nPor medida: grosor 0,07, curva D, largo 8 a 14 mm"
+Pestañas Kios tecnológicas W5D,Pestañas,Pestañas,Kios,"15,6","Mixtas: 15,6$ · por talla: 14,6$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-kios-tecnologicas-w5d.jpg,"Mixtas: grosor 0,05 y 0,07, curva C y D, largo mix 8 a 15 mm\nPor medida: grosor 0,07, curva D, largo 8 a 14 mm"
+"Pestañas Diamond Pro 0,10 y flat 0,15 C y D",Pestañas,Pestañas,Kios,"10,4","Mixtas: 10,4$ · por talla: 9,7$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-0-10-y-flat-0-15-c-y-d.jpg,"Mixtas: grosor 0,10 y 0,15, curva C y D, largo mix 8 a 15 mm\nPor medida: grosor 0,10 y 0,15, curva D, largo 8 a 15 mm"
+Pestañas Diamond Pro W 3D,Pestañas,Pestañas,Kios,"11,7","Mixtas: 11,7$ · por talla: 10,4$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-w-3d.jpg,"Mixtas: grosor 0,07, curva C y D, largo mix 8 a 15 mm\nPor medida: grosor 0,07, curva D, largo 8 a 15 mm"
+Pestañas Diamond Pro W 4D,Pestañas,Pestañas,Kios,"14,3","Mixtas: 14,3$ · por talla: 13$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-w-4d.jpg,"Mixtas: grosor 0,07, curva C y D, largo mix 8 a 14 mm\nPor medida: grosor 0,07, curva D, largo 8 a 15 mm"
+Pestañas Diamond Pro W 5D,Pestañas,Pestañas,Kios,"15,6","Mixtas: 15,6$ · por talla: 14,3$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-w-5d.jpg,"Mixtas: grosor 0,07, curva C y D, largo mix 8 a 14 mm\nPor medida: grosor 0,07, curva D, largo 8 a 15 mm"
+Pestañas Diamond Pro W 6D,Pestañas,Pestañas,Kios,"16,9","Mixtas: 16,9$ · por talla: 15,6$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-w-6d.jpg,"Mixtas: grosor 0,05 y 0,07, curva C y D, largo mix 8 a 15 mm\nPor medida: grosor 0,07, curva D, largo 8 a 14 mm"
+Pestañas Diamond Pro U YY,Pestañas,Pestañas,Kios,"11,7","Mixtas: 11,7$ · por talla: 10,4$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-u-yy.jpg,"Mixtas: grosor 0,07, curva C y D, largo mix 8 a 14 mm\nPor medida: grosor 0,07, curva D, largo 8 a 15 mm"
+Pestañas Diamond Pro U 3D,Pestañas,Pestañas,Kios,13,"Mixtas: 13$ · por talla: 11,7$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-u-3d.jpg,"Mixtas: grosor 0,05 y 0,07, curva C y D, largo mix 8 a 15 mm\nPor medida: grosor 0,07, curva D, largo 8 a 14 mm"
+Pestañas Diamond Pro U 4D,Pestañas,Pestañas,Kios,"15,6","Mixtas: 15,6$ · por talla: 14,3$ · desde 3 unidades tienes descuento",no,assets/productos/pestanas-diamond-pro-u-4d.jpg,"Mixtas: grosor 0,07, curva C y D, largo mix 8 a 14 mm\nPor medida: grosor 0,07, curva D, largo 8 a 15 mm"
+Pestañas Diamond Pro U 5D,Pestañas,Pestañas,Kios,"16,9",Mixtas,no,assets/productos/pestanas-diamond-pro-u-5d.jpg,si
+Adhesivo Neicha Serene 2 g,Pestañas,Adhesivos y líquidos,Neicha,"15,6",,no,assets/productos/adhesivo-neicha-serene-2-g.jpg,"Tiempo de secado: 0,5 seg\nTemperatura: 23–26 °C\nHumedad: 50–70 %\nRetención: 5 semanas\nVapores medios\nTransparente"
+Adhesivo Neicha Vive 3 g,Pestañas,Adhesivos y líquidos,Neicha,,,si,assets/productos/adhesivo-neicha-vive-3-g.jpg,Tiempo de secado: 1 seg\nTemperatura: 17–26 °C\nIdeal para climas húmedos\nRetención: 6 a 7 semanas\nVapores bajos\nViscosidad media
+Adhesivo Neicha Román,Pestañas,Adhesivos y líquidos,Neicha,"14,3","2 g: 14,3$ · 3 g: 16,9$ · 5 g: consultar",no,assets/productos/adhesivo-neicha-roman.jpg,Tiempo de secado: 1 seg\nTemperatura: 19–24 °C\nHumedad: 45–70 %\nRetención: 6 a 7 semanas\nVapores bajos
+Adhesivo Neicha Clear Pure Master 2 g,Pestañas,Adhesivos y líquidos,Neicha,,,si,assets/productos/adhesivo-neicha-clear-pure-master-2-g.jpg,Tiempo de secado: 1 seg\nTemperatura: 18–24 °C\nHumedad: 50–70 %\nRetención: 5 semanas\nVapores medios\nTransparente
+Adhesivo Neicha Novelty,Pestañas,Adhesivos y líquidos,Neicha,"15,6","2 g: 15,6$ · 3 g: 18,2$",no,assets/productos/adhesivo-neicha-novelty.jpg,Tiempo de secado: 1 seg\nTemperatura: 20–29 °C\nHumedad: 30–75 %\nRetención: 6 a 7 semanas\nVapores medios\nSe adapta a cualquier temperatura
+Adhesivo Neicha Elite +,Pestañas,Adhesivos y líquidos,Neicha,"14,3","2 g: 14,3$ · 3 g: 16,9$ · 5 g: consultar",no,assets/productos/adhesivo-neicha-elite.jpg,Tiempo de secado: 1 a 2 seg\nTemperatura: 21–26 °C\nHumedad: 45–65 %\nRetención: 6 a 7 semanas\nVapores bajos
+Adhesivo Neicha Presto,Pestañas,Adhesivos y líquidos,Neicha,"15,6","2 g: 15,6$ · 3 g: 18,2$",no,assets/productos/adhesivo-neicha-presto.jpg,"Tiempo de secado: 0,3 seg\nTemperatura: 18–28 °C\nHumedad: 50–70 %\nRetención: 6 a 7 semanas\nVapores bajos\nColor negro"
+Removedor Neicha en gel (Glue Remover),Pestañas,Adhesivos y líquidos,Neicha,"10,8",,no,assets/productos/removedor-neicha-en-gel-glue-remover.jpg,
+Removedor Neicha en crema,Pestañas,Adhesivos y líquidos,Neicha,"6,5","5 g: 6,5$ · 15 g: 15,6$",no,assets/productos/removedor-neicha-en-crema.jpg,
+Removedor Neicha en crema 15 g (verde),Pestañas,Adhesivos y líquidos,Neicha,,,si,assets/productos/removedor-neicha-en-crema-15-g-verde.jpg,
+Primer Neicha,Pestañas,Adhesivos y líquidos,Neicha,"15,6","40 ml: 15,6$ · 10 ml: agotado",no,assets/productos/primer-neicha.jpg,
+Neutralizador de vapores y olores Neicha,Pestañas,Adhesivos y líquidos,Neicha,"10,8",,no,assets/productos/neutralizador-de-vapores-y-olores-neicha.jpg,
+Acelerador Neicha Fast Solution,Pestañas,Adhesivos y líquidos,Neicha,"10,4",,no,assets/productos/acelerador-neicha-fast-solution.jpg,
+Removedor Neicha gel Olive,Pestañas,Adhesivos y líquidos,Neicha,"7,8",,no,assets/productos/removedor-neicha-gel-olive.jpg,
+Tapas para pegas (10 unidades),Pestañas,Accesorios de pestañas,,,,no,assets/productos/tapas-para-pegas-10-unidades.jpg,si
+Pinza profesional Neicha tipo J,Pestañas,Pinzas,Neicha,"10,4",,no,assets/productos/pinza-profesional-neicha-tipo-j.jpg,
+Pinza profesional Neicha 45°,Pestañas,Pinzas,Neicha,"10,4",,no,assets/productos/pinza-profesional-neicha-45.jpg,
+Pinza profesional Neicha 110°,Pestañas,Pinzas,Neicha,"10,4",,no,assets/productos/pinza-profesional-neicha-110.jpg,
+Pestañas Neicha Premium mixta,Pestañas,Pestañas,Neicha,"9,1","Por talla: 7,8$",no,assets/productos/pestanas-neicha-premium-mixta.jpg,
+Pestañas Neicha Twinkle Soft mixta,Pestañas,Pestañas,Neicha,"9,1","Por talla: 7,8$",no,assets/productos/pestanas-neicha-twinkle-soft-mixta.jpg,
+Pestañas Neicha Ellipse Slim Flat mixta,Pestañas,Pestañas,Neicha,"9,1","Por talla: 7,8$",no,assets/productos/pestanas-neicha-ellipse-slim-flat-mixta.jpg,
+Pestañas Neicha Ellipse Slim Flat por medidas,Pestañas,Pestañas,Neicha,"9,1","Por talla: 7,8$",no,assets/productos/pestanas-neicha-ellipse-slim-flat-por-medidas.jpg,
+Easy Kit lifting (sobre),Pestañas,Lifting y laminado,,"2,6","Caja: 19,5$",no,assets/productos/easy-kit-lifting-sobre.jpg,
+Amino Lifting,Pestañas,Lifting y laminado,Amino,,,si,assets/productos/amino-lifting.jpg,
+Puluk Pro Wave,Pestañas,Lifting y laminado,Puluk,,,si,assets/productos/puluk-pro-wave.jpg,
+Kit de lifting Neicha,Pestañas,Lifting y laminado,Neicha,,,si,assets/productos/kit-de-lifting-neicha.jpg,
+Puluk laminado,Pestañas,Lifting y laminado,Puluk,,,si,assets/productos/puluk-laminado.jpg,
+Kit Beauty Wave,Pestañas,Lifting y laminado,Beauty Wave,50,,no,assets/productos/kit-beauty-wave.jpg,
+Keratina Neicha (Keratin Boost),Pestañas,Lifting y laminado,Neicha,"10,4",,no,assets/productos/keratina-neicha-keratin-boost.jpg,
+Pure Essence Neicha,Pestañas,Lifting y laminado,Neicha,"10,4",,no,assets/productos/pure-essence-neicha.jpg,
+Tinturado Neicha (Coating),Pestañas,Lifting y laminado,Neicha,"10,4",,no,assets/productos/tinturado-neicha-coating.jpg,
+Peine para rizado,Pestañas,Lifting y laminado,,,,si,assets/productos/peine-para-rizado.jpg,
+Peine de lifting doble posición,Pestañas,Lifting y laminado,,"0,52",,no,assets/productos/peine-de-lifting-doble-posicion.jpg,
+Sellador para pestañas clásicas Neicha (Magic Black Coating),Pestañas,Adhesivos y líquidos,Neicha,"10,4",,no,assets/productos/sellador-para-pestanas-clasicas-neicha-magic-black-coating.jpg,
+Espuma limpiadora Neicha,Pestañas,Limpieza,Neicha,13,"40 ml: 13$ · 100 ml: 16,9$",no,assets/productos/espuma-limpiadora-neicha.jpg,
+Espuma limpiadora Kios 60 ml,Pestañas,Limpieza,Kios,8,,si,assets/productos/espuma-limpiadora-kios-60-ml.jpg,
+Espuma Diamond Pro 60 ml (lash shampoo),Pestañas,Limpieza,Diamond Pro,"6,5",,no,assets/productos/espuma-diamond-pro-60-ml-lash-shampoo.jpg,
+Puluk Luxuriant Eyelash Serum 10 ml,Pestañas,Cuidado y sérums,Puluk,"8,5",,no,assets/productos/puluk-luxuriant-eyelash-serum-10-ml.jpg,
+Puluk Toxtox Lash & Brow Oil,Pestañas,Cuidado y sérums,Puluk,,,si,assets/productos/puluk-toxtox-lash-brow-oil.jpg,
+Toxtox Lash Vital,Pestañas,Cuidado y sérums,Puluk,"8,5",,no,assets/productos/toxtox-lash-vital.jpg,
+Toxtox Lash Volumen,Pestañas,Cuidado y sérums,Puluk,"8,5",,no,assets/productos/toxtox-lash-volumen.jpg,
+Sérum Funmix,Pestañas,Cuidado y sérums,Funmix,"3,9",,si,assets/productos/serum-funmix.jpg,
+Primer Funmix,Pestañas,Adhesivos y líquidos,Funmix,"3,9",,no,assets/productos/primer-funmix.jpg,
+Limpiador Navina (protein remover),Pestañas,Limpieza,Navina,"3,9",,no,assets/productos/limpiador-navina-protein-remover.jpg,
+Escudos Neicha (3 pares),Pestañas,Lifting y laminado,Neicha,"2,6",,no,assets/productos/escudos-neicha-3-pares.jpg,
+Escudos transparentes (6 pares),Pestañas,Lifting y laminado,,1,,si,assets/productos/escudos-transparentes-6-pares.jpg,
+Rollitos desechables (32 unidades),Pestañas,Lifting y laminado,,"1,3",,no,assets/productos/rollitos-desechables-32-unidades.jpg,
+Bálsamo para lifting y laminado (Lash Balm),Pestañas,Lifting y laminado,,13,,no,assets/productos/balsamo-para-lifting-y-laminado-lash-balm.jpg,
+Pega Eye Cream,Pestañas,Lifting y laminado,,"2,6",,si,assets/productos/pega-eye-cream.jpg,
+Pega de lifting (Strong Fixer),Pestañas,Lifting y laminado,,"10,8",,no,assets/productos/pega-de-lifting-strong-fixer.jpg,
+Pega Iconsign para lifting,Pestañas,Lifting y laminado,Iconsign,,,si,assets/productos/pega-iconsign-para-lifting.jpg,
+Pestañas pre-armadas Naturals,Pestañas,Pestañas postizas,,"3,2",,no,assets/productos/pestanas-pre-armadas-naturals.jpg,
+Pestañas corridas (caja naranja),Pestañas,Pestañas postizas,Jie Kou,"2,6",,no,assets/productos/pestanas-corridas-caja-naranja.jpg,
+Pestañas corridas False Eyelash,Pestañas,Pestañas postizas,Jie Kou,"2,6",,no,assets/productos/pestanas-corridas-false-eyelash.jpg,
+Pestañas de práctica (20 pares),Pestañas,Pestañas postizas,,"4,5",,no,assets/productos/pestanas-de-practica-20-pares.jpg,
+Pestañas de práctica (10 pares),Pestañas,Pestañas postizas,,"3,5",,no,assets/productos/pestanas-de-practica-10-pares.jpg,
+Espejo de metal elegante,Pestañas,Accesorios de pestañas,,4,,no,assets/productos/espejo-de-metal-elegante.jpg,
+Espejo de metal,Pestañas,Accesorios de pestañas,,"2,6",,no,assets/productos/espejo-de-metal.jpg,
+Pestañas por punto,Pestañas,Pestañas postizas,,2,,si,assets/productos/pestanas-por-punto.jpg,
+Pega Ardell LashTite,Pestañas,Pestañas postizas,Ardell,"11,7",,si,assets/productos/pega-ardell-lashtite.jpg,
+Pega Salon Pro,Pestañas,Pestañas postizas,Salon Pro,"6,5",,no,assets/productos/pega-salon-pro.jpg,
+Organizador de pinzas,Pestañas,Accesorios de pestañas,,"7,8",,no,assets/productos/organizador-de-pinzas.jpg,
+Pinzas básicas tornasol,Pestañas,Pinzas,,4,"Individual: 4$ · par: 6,5$",no,assets/productos/pinzas-basicas-tornasol.jpg,
+Cepillos con envase,Pestañas,Accesorios de pestañas,,"0,6","10 unidades: 5,2$",no,assets/productos/cepillos-con-envase.jpg,
+Base de cristal,Pestañas,Accesorios de pestañas,,"1,3",,no,assets/productos/base-de-cristal.jpg,
+Piedra jade,Pestañas,Accesorios de pestañas,,"1,3","Pequeña: 1,3$ · grande: 2,6$",no,assets/productos/piedra-jade.jpg,
+Flor de pega para pestañas,Pestañas,Accesorios de pestañas,,"0,65",,no,assets/productos/flor-de-pega-para-pestanas.jpg,
+Colmenas para pega (10 unidades),Pestañas,Accesorios de pestañas,,"1,3","25 unidades: 2,6$ · 50 unidades: 3,9$",no,assets/productos/colmenas-para-pega-10-unidades.jpg,
+Base de silicón cuadrada,Pestañas,Accesorios de pestañas,,"2,6",,no,assets/productos/base-de-silicon-cuadrada.jpg,
+Anillo de cristal,Pestañas,Accesorios de pestañas,,,,si,assets/productos/anillo-de-cristal.jpg,
+Base de silicón,Pestañas,Accesorios de pestañas,,"1,3",,no,assets/productos/base-de-silicon.jpg,
+Miniventilador sin aspas,Pestañas,Equipos y accesorios,,"10,4",,no,assets/productos/miniventilador-sin-aspas.jpg,
+Miniventilador normal con espejo,Pestañas,Equipos y accesorios,,"9,1",,no,assets/productos/miniventilador-normal-con-espejo.jpg,
+Dispensador de agua,Pestañas,Equipos y accesorios,,"3,5",,no,assets/productos/dispensador-de-agua.jpg,
+Higrómetro digital,Pestañas,Equipos y accesorios,,"3,9",,no,assets/productos/higrometro-digital.jpg,
+Higrómetro con reloj,Pestañas,Equipos y accesorios,,,,si,assets/productos/higrometro-con-reloj.jpg,
+Mezclador de adhesivo o pigmento,Pestañas,Equipos y accesorios,,,,si,assets/productos/mezclador-de-adhesivo-o-pigmento.jpg,
+Pomo de práctica,Pestañas,Equipos y accesorios,,2,,no,assets/productos/pomo-de-practica.jpg,
+Almohada para colocación de pestañas,Pestañas,Equipos y accesorios,,18,,no,assets/productos/almohada-para-colocacion-de-pestanas.jpg,
+Soplador de pestañas,Pestañas,Equipos y accesorios,,"1,3",,no,assets/productos/soplador-de-pestanas.jpg,
+Muñequera,Pestañas,Accesorios de pestañas,,,,si,assets/productos/munequera.jpg,
+Pallet imantada,Pestañas,Accesorios de pestañas,,"7,8",,no,assets/productos/pallet-imantada.jpg,
+Pallet,Pestañas,Accesorios de pestañas,,"3,9",,si,assets/productos/pallet.jpg,
+Cepillo de espuma,Pestañas,Limpieza,,"1,3",,no,assets/productos/cepillo-de-espuma.jpg,
+Nano Mix (humidificador),Pestañas,Equipos y accesorios,,"5,2",,si,assets/productos/nano-mix-humidificador.jpg,
+Optivisor,Pestañas,Equipos y accesorios,,,,si,assets/productos/optivisor.jpg,
+Conservador de policarbonato,Pestañas,Accesorios de pestañas,,"5,2",,no,assets/productos/conservador-de-policarbonato.jpg,
+Toallitas sin pelusa,Pestañas,Limpieza,,"3,9",,no,assets/productos/toallitas-sin-pelusa.jpg,
+Porta pinzas,Pestañas,Accesorios de pestañas,,"5,2",,si,assets/productos/porta-pinzas.jpg,
+Micropore 3M,Pestañas,Parches y cintas,3M,"2,6",,si,assets/productos/micropore-3m.jpg,
+Micropore pequeño,Pestañas,Parches y cintas,,"1,5",,no,assets/productos/micropore-pequeno.jpg,
+Transpore,Pestañas,Parches y cintas,,"1,3",,no,assets/productos/transpore.jpg,
+Parches Neicha (hydrogel),Pestañas,Parches y cintas,Neicha,"0,7",,no,assets/productos/parches-neicha-hydrogel.jpg,
+Micropore fino,Pestañas,Parches y cintas,,"0,6",5 unidades: 2$,no,assets/productos/micropore-fino.jpg,
+Parches de colágeno,Pestañas,Parches y cintas,,"0,4","25 unidades: 6,5$",no,assets/productos/parches-de-colageno.jpg,
+Autoadhesivos para pega (blíster de 30),Pestañas,Parches y cintas,,"0,6",,no,assets/productos/autoadhesivos-para-pega-blister-de-30.jpg,
+Campos estériles (20 unidades),Bioseguridad,Desechables,,"3,9","50 unidades: 7,8$ · 100 unidades: 13$",no,assets/productos/campos-esteriles-20-unidades.jpg,
+Atomizador,Bioseguridad,Higiene,,"1,3",,no,assets/productos/atomizador.jpg,
+Envase para desechos punzocortantes,Bioseguridad,Higiene,,"5,2",,no,assets/productos/envase-para-desechos-punzocortantes.jpg,
+Esterilizador de sumergir,Bioseguridad,Higiene,,"10,8",,si,assets/productos/esterilizador-de-sumergir.jpg,
+Tapabocas (50 unidades),Bioseguridad,Desechables,,"7,8",,no,assets/productos/tapabocas-50-unidades.jpg,
+Gorros desechables (50 unidades),Bioseguridad,Desechables,,"7,8",100 unidades: 13$,no,assets/productos/gorros-desechables-50-unidades.jpg,
+Guantes para dedos (10 unidades),Bioseguridad,Desechables,,"1,3","50 unidades: 3,9$ · 100 unidades: 6,5$",no,assets/productos/guantes-para-dedos-10-unidades-2.jpg,
+Guantes de nitrilo (par),Bioseguridad,Guantes,,1,,no,assets/productos/guantes-de-nitrilo-par.jpg,
+Guantes de nitrilo negros (par),Bioseguridad,Guantes,,1,"50 pares: 10,4$",no,assets/productos/guantes-de-nitrilo-negros-par.jpg,
+Forro para camilla,Bioseguridad,Higiene,,25,,no,assets/productos/forro-para-camilla.jpg,
+Cepillo facial Happy Alliance,Faciales y corporales,Equipos faciales,Happy Alliance,"10,8",,no,assets/productos/cepillo-facial-happy-alliance.jpg,
+Cepillo facial 5 en 1,Faciales y corporales,Equipos faciales,,"10,8",,si,assets/productos/cepillo-facial-5-en-1.jpg,
+Masajeador facial,Faciales y corporales,Equipos faciales,,"7,8",,no,assets/productos/masajeador-facial.jpg,
+Esponjas comprimidas (12 unidades),Faciales y corporales,Limpieza facial,,"3,5",,no,assets/productos/esponjas-comprimidas-12-unidades.jpg,
+Esponjas exfoliantes,Faciales y corporales,Limpieza facial,,"1,5",,no,assets/productos/esponjas-exfoliantes.jpg,
+Mini cepillo doble exfoliante,Faciales y corporales,Limpieza facial,,"1,3",,no,assets/productos/mini-cepillo-doble-exfoliante.jpg,
+Paleta de silicón para mascarillas,Faciales y corporales,Mascarillas,,"2,6",,no,assets/productos/paleta-de-silicon-para-mascarillas.jpg,
+Mascarilla de ojos Bioaqua,Faciales y corporales,Mascarillas,Bioaqua,"0,65",,no,assets/productos/mascarilla-de-ojos-bioaqua.jpg,
+Mascarilla de labios Bioaqua,Faciales y corporales,Mascarillas,Bioaqua,"0,78",,si,assets/productos/mascarilla-de-labios-bioaqua.jpg,
+Mascarilla de bambú y carbón,Faciales y corporales,Mascarillas,,,,si,assets/productos/mascarilla-de-bambu-y-carbon.jpg,
+Sacacomedón,Faciales y corporales,Limpieza facial,,"0,4",6 unidades: 2$,no,assets/productos/sacacomedon.jpg,
+Bandana (negra y azul),Faciales y corporales,Limpieza facial,,"2,6",,no,assets/productos/bandana-negra-y-azul.jpg,
+Kit de maderoterapia,Faciales y corporales,Corporal,,60,,no,assets/productos/kit-de-maderoterapia.jpg,
+Máscara LED,Aparatología,Aparatología,,59,,no,assets/productos/mascara-led.jpg,
+Mini HIFU,Aparatología,Aparatología,,65,,no,assets/productos/mini-hifu.jpg,
+Radiofrecuencia fraccionada,Aparatología,Aparatología,,55,,no,assets/productos/radiofrecuencia-fraccionada.jpg,
+Láser Neatcell rojo,Aparatología,Aparatología,Neatcell,52,,no,assets/productos/laser-neatcell-rojo.jpg,
+Aro de luz 20 cm,Aparatología,Iluminación,,"15,6",30 cm: consultar,no,assets/productos/aro-de-luz-20-cm.jpg,
+Aro de luz selfie,Aparatología,Iluminación,,"1,3",,no,assets/productos/aro-de-luz-selfie.jpg,
+Cera granulada Hot Wax,Depilación,Ceras y equipos,,10,,no,assets/productos/cera-granulada-hot-wax.jpg,
+Cera Skinsystem,Depilación,Ceras y equipos,Skinsystem,,,si,assets/productos/cera-skinsystem.jpg,
+Olla depilatoria Pro-Wax 100,Depilación,Ceras y equipos,Pro-Wax,"19,5",,no,assets/productos/olla-depilatoria-pro-wax-100.jpg,
+Bandas para depilar (100 unidades),Depilación,Ceras y equipos,,"6,5",,no,assets/productos/bandas-para-depilar-100-unidades.jpg,
+Papel depilatorio,Depilación,Ceras y equipos,,,,si,assets/productos/papel-depilatorio.jpg,
+Perfiladores (3 unidades),Depilación,Perfiladores e hilos,,"1,3",,no,assets/productos/perfiladores-3-unidades.jpg,
+Hilo tinturado Kios,Depilación,Perfiladores e hilos,Kios,"2,6",2 unidades: 4$,no,assets/productos/hilo-tinturado-kios.jpg,
+Hilo tinturado blanco (mapping string),Depilación,Perfiladores e hilos,,,,si,assets/productos/hilo-tinturado-blanco-mapping-string.jpg,
+Hilo Organica,Depilación,Perfiladores e hilos,Organica,"4,5",,no,assets/productos/hilo-organica.jpg,
+Hilo Griffin,Depilación,Perfiladores e hilos,Griffin,,,si,assets/productos/hilo-griffin.jpg,
+Paletas para depilar (50 unidades),Depilación,Paletas y palitos,,"2,5",,no,assets/productos/paletas-para-depilar-50-unidades.jpg,
+Paletas corporales (20 unidades),Depilación,Paletas y palitos,,1,"50 unidades: 2,6$ · 100 unidades: 5,2$",no,assets/productos/paletas-corporales-20-unidades.jpg,
+Paletas tipo café (20 unidades),Depilación,Paletas y palitos,,"0,65","50 unidades: 1,3$ · 100 unidades: 2$",no,assets/productos/paletas-tipo-cafe-20-unidades.jpg,
+Palitos de naranja pequeños (20 unidades),Depilación,Paletas y palitos,,"0,91","50 unidades: 2,6$ · 100 unidades: 4,5$",no,assets/productos/palitos-de-naranja-pequenos-20-unidades.jpg,
+Palitos de naranja grandes (20 unidades),Depilación,Paletas y palitos,,"1,3","50 unidades: 2,9$ · 100 unidades: 5,5$",no,assets/productos/palitos-de-naranja-grandes-20-unidades.jpg,
+Palitos de punta de algodón (50 unidades),Depilación,Paletas y palitos,,"1,5","100 unidades: 2,6$ · 20 unidades: consultar",no,assets/productos/palitos-de-punta-de-algodon-50-unidades.jpg,
