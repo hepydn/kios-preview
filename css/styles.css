@@ -83,7 +83,7 @@ h1 em { font-style: italic; color: var(--magenta); }
 
 .hero__media { position: relative; height: 560px; }
 .hero__img { position: absolute; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
-.hero__img--main { width: 62%; height: 82%; left: 0; top: 9%; border-radius: 200px 200px var(--radius) var(--radius); }
+.hero__img--main { width: 62%; height: 82%; left: 0; top: 9%; border-radius: 200px 200px var(--radius) var(--radius); object-position: center 12%; }
 .hero__img--top { width: 40%; height: 44%; right: 0; top: 0; }
 .hero__img--bottom { width: 40%; height: 44%; right: 0; bottom: 0; }
 .hero__badge { position: absolute; left: 44%; bottom: 4%; background: #fff; padding: .7rem 1.2rem; border-radius: 999px; font-weight: 600; font-size: .82rem; box-shadow: var(--shadow); color: var(--magenta); }
